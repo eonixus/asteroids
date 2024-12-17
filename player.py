@@ -11,7 +11,7 @@ class Player(CircleShape):
     def draw(self, screen):
         pygame.draw.polygon(screen, "white", self.triangle(), 2)
 
-    # In the player class, this ini make player look like triangle even though circle hitbox
+    # In the player class, this is  make player look like triangle even though circle hitbox
     def triangle(self):
         forward = pygame.Vector2(0, 1).rotate(self.rotation)
         right = pygame.Vector2(0, 1).rotate(self.rotation + 90) * self.radius / 1.5
