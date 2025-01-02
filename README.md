@@ -24,7 +24,7 @@ Asteroids is a classic arcade-style game built using Python and the Pygame libra
 1. Clone this repository:
    ```bash
    git clone https://github.com/eonixus/asteroids/archive/refs/heads/main.zip
-   cd asteroids-game
+   cd asteroids-main
    ```
 
 2. Install the required dependencies:
