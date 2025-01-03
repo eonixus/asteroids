@@ -27,16 +27,26 @@ Asteroids is a classic arcade-style game built using Python and the Pygame libra
    cd asteroids-main
    ```
 
-2. Install the required dependencies:
+2. Create a virtual environment at the top level of your project directory:
+   ```bash
+   python3 -m venv venv
+   ```
+
+3. Activate the virtual environment:
+   ```bash
+   source venv/bin/activate
+   ```
+
+4. Install the required dependencies:
    ```bash
    pip install -r requirements.txt
    ```
 
-3. Run the game:
+5. Run the game:
    ```bash
-   python asteroids.py
+   python3 main.py
    ```
 
 ## Acknowledgments
-- Inspired by the classic arcade game "Asteroids."
+- Inspired by the classic arcade game "Asteroids" you can see in https://freeasteroids.org/.
 - Built with Python and Pygame.
